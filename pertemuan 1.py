@@ -22,6 +22,6 @@ class PersegiPanjang184220019  :
     def cetakkeliling(self):
         print('Keliling persegi panjang=% .2f' % self.hitungKeliling())    
         
-objectDan = PersegiPanjang184220019(10,3)
-objDan.cetakLuas()
+obj1 = PersegiPanjang184220019(10,3)
+obj1.cetakLuas()
 print(obj1)
