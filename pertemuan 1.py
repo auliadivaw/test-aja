@@ -1,4 +1,4 @@
-class PersegiPanjang184220019  : 
+class PersegiPanjang22  : 
 
     def __init__(self,p,l):
         self.panjang = p
@@ -22,6 +22,6 @@ class PersegiPanjang184220019  :
     def cetakkeliling(self):
         print('Keliling persegi panjang=% .2f' % self.hitungKeliling())    
         
-obj1 = PersegiPanjang184220019(10,3)
-obj1.cetakLuas()
-print(obj1)
+objDan = PersegiPanjang22(10,3)
+objDan.cetakLuas()
+print(objDan)
